@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Iris AI</title>
+</head>
+<body>
+<h1 align = "center" style="background-color:DodgerBlue;">IRIS AI</h1>
+<form action="/" method="post">
+<div align="center"class="dropdown">
+      <label for="Model">Choose Your Model:</label>
+       <select name="param1" id="Model">
+          <option value="SVM" selected>Support Vector Machines</option>
+          <option value="LR">Logistic Regression</option>
+          <option value="RF">Random Forest</option>
+          <option value="KNN">KNN Classifier</option>
+    </select><br><br>
+</div>
+
+ <div align="center" >
+      <label for="param2">SepalLength (inCm):</label>
+      <input type="number" id="param2" name="sepellen"
+       min="1" max="10" value="7" step=0.1 placeholder="eg. 1.0"><br><br>
+  </div>
+
+<div>
+  <div align="center" >
+      <label for="param3">SepalWidth (inCm):</label>
+      <input type="number" id="param3" name="sepelwidth"
+       min="1" max="5" value="2.5" step=0.1 placeholder="eg. 1.0"><br><br>
+  </div>
+</div>
+
+<div>
+  <div align="center" >
+      <label for="param4">PetalLength (inCm):</label>
+      <input type="number" id="param4" name="petallength"
+       min="1" max="8" value="6.5" step=0.1 placeholder="eg. 1.0"><br><br>
+  </div>
+</div>
+
+<div>
+  <div align="center" >
+      <label for="param5">PetalWidth (inCm):</label>
+      <input type="number" id="param5" name="petalwidth"
+       min="0" max="3" value="1.5" step=0.1 placeholder="eg. 1.0"><br><br>
+  </div>
+</div>
+
+ <div align="center">
+    <button>Predict</button>
+ </div>
+</form>
+<!--button align="center" style="background-color:LightGray;" type="submit">Predict</button-->
+</body>
+</html>
