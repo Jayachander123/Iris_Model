@@ -1,0 +1,6 @@
+step 1: Meet all the requirements inside requirements.txt
+
+step 2: execute "run.ipynb" notebook, this will create data and all model pickle files and detailed summary of all model runs
+
+step 3: execute "app.py", This will create endpoints and web Page to give input params to find out related Species Name.
+
